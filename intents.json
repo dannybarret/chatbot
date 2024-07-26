@@ -14,24 +14,33 @@
         "Buenas noches"
       ],
       "responses": [
-        "Hola :D",
-        "Hola, ¿Cómo te puedo ayudar?",
-        "Hola, ¿En que puedo ayudarte?"
+        "Hola 👋",
+        "Hola 👋, ¿Cómo te puedo ayudar?",
+        "Hola 👋, ¿En que puedo ayudarte?"
+      ]
+    },
+    {
+      "tag": "saludo_2",
+      "patterns": ["¿Cómo estás?", "¿Qué tal?", "¿Cómo te va?"],
+      "responses": [
+        "Muy bien 😀, gracias por preguntar. ¿Cómo te puedo ayudar?",
+        "Excelente! 🌟 ¿En qué puedo ayudarte?",
+        "Bien 😀, gracias. ¿Cómo te puedo ayudar?"
       ]
     },
     {
       "tag": "despedida",
       "patterns": ["Chao", "Adios", "Hasta luego"],
       "responses": [
-        "Hasta luego, un gusto ayudarte",
-        "Un gusto ayudarte, buen día",
-        "¡Adiós!, un gusto ayudarte"
+        "Hasta luego, un gusto ayudarte 😀",
+        "Un gusto ayudarte, buen día 🌞",
+        "¡Adiós!, un gusto ayudarte 😀"
       ]
     },
     {
       "tag": "gracias",
       "patterns": ["Gracias", "Gracias a ti", "Eso es útil", "Muchas gracias"],
-      "responses": ["No hay de qué! ¡Siempre a tu servicio!", "¡De nada!, ¡Estoy aquí para ayudarte!", "¡Fue un placer ayudarte!"]
+      "responses": ["No hay de qué! ¡Siempre a tu servicio! 😊", "¡De nada!, ¡Estoy aquí para ayudarte! 😊", "¡Fue un placer ayudarte! 😊"]
     },
     {
       "tag": "contacto",
@@ -74,6 +83,57 @@
       ],
       "responses": [
         "Al ser la primera vez que ingresas a la herramienta, se te asignó una contraseña temporal enviada al correo registrado, la cual encontrarás en la comunicación de bienvenida a la herramienta. Una vez ingreses esta clave temporal, se solicitará automáticamente un cambio de contraseña. \n\nCondiciones necesarias para que la contraseña nueva sea habilitada: \n\n✓ mínimo diez (10) caracteres. \n✓ Una letra minúscula \n✓ Una letra mayúscula \n✓ Un dígito o un carácter especial (*/|#)."
+      ]
+    },
+    {
+      "tag": "recuperacion_clave",
+      "patterns": [
+        "¿Cómo puedo recuperar mi contraseña?", 
+        "¿Cómo puedo recuperar la clave?",
+        "¿Cómo puedo recuperar la contraseña?",
+        "¿Recuperar la contraseña?"
+      ],
+      "responses": [
+        "Lo primero Si olvidó la contraseña, ingrese el correo electrónico registrado, luego de clic en el botón “¿Olvidaste la contraseña?”, y espere el código que será enviado al mismo correo. \nLo segundo Ingrese el código recibido \ny lo tercero cree una contraseña nueva."
+      ]
+    },
+    {
+      "tag": "cambio_clave",
+      "patterns": [
+        "¿Cómo puedo cambiar mi contraseña?", 
+        "¿Cómo puedo cambiar la clave?",
+        "¿Cómo puedo cambiar la contraseña?",
+        "¿Cambiar la contraseña?"
+      ],
+      "responses": [
+        "1. Seleccione la opción cambiar contraseña \n2. Realice el cambio de contraseña \nNota: Tenga presente las condiciones mínimas para la creación de una contraseña"
+      ]
+    },
+    {
+      "tag": "condiciones_clave",
+      "patterns": [
+        "¿Qué son las condiciones de la contraseña?", 
+        "¿Cuáles son las condiciones de la contraseña?",
+        "¿Cómo son las condiciones de la contraseña?",
+        "¿Qué son las condiciones mínimas de la contraseña?", 
+        "¿Cuáles son las condiciones mínimas de la contraseña?",
+        "¿Cómo son las condiciones mínimas de la contraseña?",
+        "¿Condiciones mínimas para la contraseña?"
+      ],
+      "responses": [
+        "Condiciones necesarias para que la contraseña: \n\n✓ mínimo diez (10) caracteres. \n✓ Una letra minúscula \n✓ Una letra mayúscula \n✓ Un dígito o un carácter especial (*/|#)."
+      ]
+    },
+    {
+      "tag": "consultar_datos_cliente",
+      "patterns": [
+        "¿Cómo puedo consultar los datos del cliente?", 
+        "¿Qué datos debo llenar para consultar los datos del cliente?",
+        "¿Cuáles son los datos que debo llenar para consultar un cliente?",
+        "¿Consultar un cliente?"
+      ],
+      "responses": [
+        "Para comenzar el proceso debes: \n\n✓ Elegir el tipo de documento de identidad del cliente. \n\n✓ Digitar el número del documento de identidad. \n\n✓ Seleccionar el proyecto para el cual se está consultando al cliente. \n\n✓ Ingresar el código o nombre de laactividad económica del cliente."
       ]
     }
   ]
